@@ -1,0 +1,6 @@
+source;share/arcs3r21v2_description/hook/pythonpath.ps1
+source;share/arcs3r21v2_description/hook/pythonpath.dsv
+source;share/arcs3r21v2_description/hook/pythonpath.sh
+source;share/arcs3r21v2_description/hook/ament_prefix_path.ps1
+source;share/arcs3r21v2_description/hook/ament_prefix_path.dsv
+source;share/arcs3r21v2_description/hook/ament_prefix_path.sh

@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/amos/cs_ws/build/arcs3r21v2_description",
+        "/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages",
+        "/home/amos/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/amos/cs_ws/build/arcs3r21v2_description",
+        "/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages",
+        "/home/amos/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

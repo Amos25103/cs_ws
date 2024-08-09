@@ -1,0 +1,53 @@
+[1.000s] Invoking command in '/home/amos/cs_ws/src/arcs3r21v2_description': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arcs3r21v2_description build --build-base /home/amos/cs_ws/build/arcs3r21v2_description/build install --record /home/amos/cs_ws/build/arcs3r21v2_description/install.log --install-scripts $base/lib/arcs3r21v2_description --single-version-externally-managed install_data
+[1.382s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.383s]   warnings.warn(
+[1.396s] running egg_info
+[1.397s] creating ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info
+[1.397s] writing ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/PKG-INFO
+[1.397s] writing dependency_links to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/dependency_links.txt
+[1.399s] writing entry points to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/entry_points.txt
+[1.399s] writing requirements to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/requires.txt
+[1.399s] writing top-level names to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/top_level.txt
+[1.403s] writing manifest file '../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/SOURCES.txt'
+[1.404s] reading manifest file '../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/SOURCES.txt'
+[1.405s] writing manifest file '../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/SOURCES.txt'
+[1.406s] running build
+[1.406s] running build_py
+[1.406s] creating /home/amos/cs_ws/build/arcs3r21v2_description/build
+[1.407s] creating /home/amos/cs_ws/build/arcs3r21v2_description/build/lib
+[1.407s] creating /home/amos/cs_ws/build/arcs3r21v2_description/build/lib/arcs3r21v2_description
+[1.407s] copying arcs3r21v2_description/__init__.py -> /home/amos/cs_ws/build/arcs3r21v2_description/build/lib/arcs3r21v2_description
+[1.407s] running install
+[1.407s] running install_lib
+[1.414s] creating /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description
+[1.414s] copying /home/amos/cs_ws/build/arcs3r21v2_description/build/lib/arcs3r21v2_description/__init__.py -> /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description
+[1.414s] byte-compiling /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description/__init__.py to __init__.cpython-310.pyc
+[1.414s] running install_data
+[1.414s] creating /home/amos/cs_ws/install/arcs3r21v2_description/share/ament_index
+[1.414s] creating /home/amos/cs_ws/install/arcs3r21v2_description/share/ament_index/resource_index
+[1.414s] creating /home/amos/cs_ws/install/arcs3r21v2_description/share/ament_index/resource_index/packages
+[1.415s] copying resource/arcs3r21v2_description -> /home/amos/cs_ws/install/arcs3r21v2_description/share/ament_index/resource_index/packages
+[1.415s] copying package.xml -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description
+[1.415s] creating /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/launch
+[1.415s] copying launch/display.launch.py -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/launch
+[1.415s] copying launch/gazebo.launch.py -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/launch
+[1.415s] creating /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[1.415s] copying urdf/arcs3r21v2.trans -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[1.415s] copying urdf/materials.xacro -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[1.415s] copying urdf/arcs3r21v2.xacro -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[1.416s] copying urdf/arcs3r21v2.gazebo -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[1.416s] creating /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[1.416s] copying meshes/link2_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[1.418s] copying meshes/link3_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[1.422s] copying meshes/link4_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[1.427s] copying meshes/link5_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[1.432s] copying meshes/base_link.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[1.434s] copying meshes/link6_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[1.435s] copying meshes/link1_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[1.440s] creating /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/config
+[1.440s] copying config/display.rviz -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/config
+[1.441s] running install_egg_info
+[1.443s] Copying ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info to /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description-0.0.0-py3.10.egg-info
+[1.445s] running install_scripts
+[1.468s] writing list of installed files to '/home/amos/cs_ws/build/arcs3r21v2_description/install.log'
+[1.502s] Invoked command in '/home/amos/cs_ws/src/arcs3r21v2_description' returned '0': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arcs3r21v2_description build --build-base /home/amos/cs_ws/build/arcs3r21v2_description/build install --record /home/amos/cs_ws/build/arcs3r21v2_description/install.log --install-scripts $base/lib/arcs3r21v2_description --single-version-externally-managed install_data

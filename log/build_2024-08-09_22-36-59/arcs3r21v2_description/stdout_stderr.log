@@ -1,0 +1,51 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info
+writing ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/dependency_links.txt
+writing entry points to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/entry_points.txt
+writing requirements to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/requires.txt
+writing top-level names to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/top_level.txt
+writing manifest file '../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amos/cs_ws/build/arcs3r21v2_description/build
+creating /home/amos/cs_ws/build/arcs3r21v2_description/build/lib
+creating /home/amos/cs_ws/build/arcs3r21v2_description/build/lib/arcs3r21v2_description
+copying arcs3r21v2_description/__init__.py -> /home/amos/cs_ws/build/arcs3r21v2_description/build/lib/arcs3r21v2_description
+running install
+running install_lib
+creating /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description
+copying /home/amos/cs_ws/build/arcs3r21v2_description/build/lib/arcs3r21v2_description/__init__.py -> /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description
+byte-compiling /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/amos/cs_ws/install/arcs3r21v2_description/share/ament_index
+creating /home/amos/cs_ws/install/arcs3r21v2_description/share/ament_index/resource_index
+creating /home/amos/cs_ws/install/arcs3r21v2_description/share/ament_index/resource_index/packages
+copying resource/arcs3r21v2_description -> /home/amos/cs_ws/install/arcs3r21v2_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description
+creating /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/launch
+copying launch/display.launch.py -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/launch
+copying launch/gazebo.launch.py -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/launch
+creating /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+copying urdf/arcs3r21v2.trans -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+copying urdf/materials.xacro -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+copying urdf/arcs3r21v2.xacro -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+copying urdf/arcs3r21v2.gazebo -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+creating /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+copying meshes/link2_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+copying meshes/link3_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+copying meshes/link4_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+copying meshes/link5_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+copying meshes/base_link.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+copying meshes/link6_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+copying meshes/link1_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+creating /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/config
+copying config/display.rviz -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/config
+running install_egg_info
+Copying ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info to /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/amos/cs_ws/build/arcs3r21v2_description/install.log'
