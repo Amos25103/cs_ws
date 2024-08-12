@@ -1,0 +1,35 @@
+[0.000000] (-) TimerEvent: {}
+[0.000252] (arcs3r21v2_description) JobQueued: {'identifier': 'arcs3r21v2_description', 'dependencies': OrderedDict()}
+[0.000292] (joint_movement) JobQueued: {'identifier': 'joint_movement', 'dependencies': OrderedDict()}
+[0.000559] (arcs3r21v2_description) JobStarted: {'identifier': 'arcs3r21v2_description'}
+[0.068792] (joint_movement) JobStarted: {'identifier': 'joint_movement'}
+[0.089427] (-) TimerEvent: {}
+[0.190130] (-) TimerEvent: {}
+[0.291288] (-) TimerEvent: {}
+[0.392606] (-) TimerEvent: {}
+[0.493694] (-) TimerEvent: {}
+[0.594946] (-) TimerEvent: {}
+[0.699615] (-) TimerEvent: {}
+[0.801009] (-) TimerEvent: {}
+[0.901846] (-) TimerEvent: {}
+[1.002728] (-) TimerEvent: {}
+[1.103663] (-) TimerEvent: {}
+[1.204773] (-) TimerEvent: {}
+[1.305993] (-) TimerEvent: {}
+[1.406782] (-) TimerEvent: {}
+[1.509064] (-) TimerEvent: {}
+[1.609663] (-) TimerEvent: {}
+[1.683051] (joint_movement) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 94, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 192, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'setup.py\', \'--help-commands\'] to pass: \n'}
+[1.683676] (joint_movement) JobEnded: {'identifier': 'joint_movement', 'rc': 'SIGINT'}
+[1.712108] (-) TimerEvent: {}
+[1.812727] (-) TimerEvent: {}
+[1.913652] (-) TimerEvent: {}
+[2.015387] (-) TimerEvent: {}
+[2.115938] (-) TimerEvent: {}
+[2.218396] (-) TimerEvent: {}
+[2.319610] (-) TimerEvent: {}
+[2.420750] (-) TimerEvent: {}
+[2.521556] (-) TimerEvent: {}
+[2.623136] (-) TimerEvent: {}
+[2.631533] (arcs3r21v2_description) JobEnded: {'identifier': 'arcs3r21v2_description', 'rc': 'SIGINT'}
+[2.643228] (-) EventReactorShutdown: {}

@@ -1,0 +1,20 @@
+[4.205s] Invoking command in '/home/amos/cs_ws/build/arcs3r21v2_description': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/arcs3r21v2_description/build --no-deps symlink_data
+[5.647s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.647s]   warnings.warn(
+[5.815s] running develop
+[5.830s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.831s]   warnings.warn(
+[6.722s] running egg_info
+[6.735s] writing arcs3r21v2_description.egg-info/PKG-INFO
+[6.742s] writing dependency_links to arcs3r21v2_description.egg-info/dependency_links.txt
+[6.744s] writing entry points to arcs3r21v2_description.egg-info/entry_points.txt
+[6.746s] writing requirements to arcs3r21v2_description.egg-info/requires.txt
+[6.749s] writing top-level names to arcs3r21v2_description.egg-info/top_level.txt
+[6.771s] reading manifest file 'arcs3r21v2_description.egg-info/SOURCES.txt'
+[6.774s] writing manifest file 'arcs3r21v2_description.egg-info/SOURCES.txt'
+[6.789s] running build_ext
+[6.790s] Creating /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2-description.egg-link (link to .)
+[6.798s] 
+[6.799s] Installed /home/amos/cs_ws/build/arcs3r21v2_description
+[6.804s] running symlink_data
+[6.959s] Invoked command in '/home/amos/cs_ws/build/arcs3r21v2_description' returned '0': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/arcs3r21v2_description/build --no-deps symlink_data

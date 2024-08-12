@@ -1,0 +1,36 @@
+[3.837s] Invoking command in '/home/amos/cs_ws/build/arcs3r21v2_description': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/arcs3r21v2_description/build --no-deps symlink_data --force
+[5.223s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.223s]   warnings.warn(
+[5.388s] running develop
+[5.403s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.405s]   warnings.warn(
+[6.235s] running egg_info
+[6.238s] writing arcs3r21v2_description.egg-info/PKG-INFO
+[6.248s] writing dependency_links to arcs3r21v2_description.egg-info/dependency_links.txt
+[6.264s] writing entry points to arcs3r21v2_description.egg-info/entry_points.txt
+[6.266s] writing requirements to arcs3r21v2_description.egg-info/requires.txt
+[6.278s] writing top-level names to arcs3r21v2_description.egg-info/top_level.txt
+[6.290s] reading manifest file 'arcs3r21v2_description.egg-info/SOURCES.txt'
+[6.308s] writing manifest file 'arcs3r21v2_description.egg-info/SOURCES.txt'
+[6.315s] running build_ext
+[6.315s] Creating /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2-description.egg-link (link to .)
+[6.319s] 
+[6.320s] Installed /home/amos/cs_ws/build/arcs3r21v2_description
+[6.321s] running symlink_data
+[6.322s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/resource/arcs3r21v2_description -> /home/amos/cs_ws/install/arcs3r21v2_description/share/ament_index/resource_index/packages
+[6.324s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/package.xml -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description
+[6.325s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/launch/display.launch.py -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/launch
+[6.326s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/launch/gazebo.launch.py -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/launch
+[6.327s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/urdf/arcs3r21v2.trans -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[6.327s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/urdf/materials.xacro -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[6.327s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/urdf/arcs3r21v2.xacro -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[6.328s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/urdf/arcs3r21v2.gazebo -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[6.329s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/meshes/link2_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[6.331s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/meshes/link3_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[6.333s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/meshes/link4_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[6.334s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/meshes/link5_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[6.335s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/meshes/base_link.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[6.335s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/meshes/link6_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[6.336s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/meshes/link1_1.stl -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/meshes
+[6.337s] symbolically linking /home/amos/cs_ws/build/arcs3r21v2_description/config/display.rviz -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/config
+[6.694s] Invoked command in '/home/amos/cs_ws/build/arcs3r21v2_description' returned '0': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/arcs3r21v2_description/build --no-deps symlink_data --force

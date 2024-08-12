@@ -1,0 +1,19 @@
+[1.456s] Invoking command in '/home/amos/cs_ws/build/joint_movement': PYTHONPATH=/home/amos/cs_ws/build/joint_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/joint_movement/build --no-deps symlink_data
+[1.982s] running develop
+[1.983s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.983s]   warnings.warn(
+[2.228s] running egg_info
+[2.228s] writing joint_movement.egg-info/PKG-INFO
+[2.229s] writing dependency_links to joint_movement.egg-info/dependency_links.txt
+[2.229s] writing entry points to joint_movement.egg-info/entry_points.txt
+[2.229s] writing requirements to joint_movement.egg-info/requires.txt
+[2.229s] writing top-level names to joint_movement.egg-info/top_level.txt
+[2.231s] reading manifest file 'joint_movement.egg-info/SOURCES.txt'
+[2.233s] writing manifest file 'joint_movement.egg-info/SOURCES.txt'
+[2.235s] running build_ext
+[2.236s] Creating /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint-movement.egg-link (link to .)
+[2.238s] Installing movejoint script to /home/amos/cs_ws/install/joint_movement/lib/joint_movement
+[2.238s] 
+[2.238s] Installed /home/amos/cs_ws/build/joint_movement
+[2.238s] running symlink_data
+[2.342s] Invoked command in '/home/amos/cs_ws/build/joint_movement' returned '0': PYTHONPATH=/home/amos/cs_ws/build/joint_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/joint_movement/build --no-deps symlink_data

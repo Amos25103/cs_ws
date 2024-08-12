@@ -9,6 +9,13 @@ setup.py
 ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/top_level.txt
 ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/zip-safe
 arcs3r21v2_description/__init__.py
+arcs3r21v2_description.egg-info/PKG-INFO
+arcs3r21v2_description.egg-info/SOURCES.txt
+arcs3r21v2_description.egg-info/dependency_links.txt
+arcs3r21v2_description.egg-info/entry_points.txt
+arcs3r21v2_description.egg-info/requires.txt
+arcs3r21v2_description.egg-info/top_level.txt
+arcs3r21v2_description.egg-info/zip-safe
 config/display.rviz
 launch/display.launch.py
 launch/gazebo.launch.py
@@ -20,9 +27,6 @@ meshes/link4_1.stl
 meshes/link5_1.stl
 meshes/link6_1.stl
 resource/arcs3r21v2_description
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 urdf/arcs3r21v2.gazebo
 urdf/arcs3r21v2.trans
 urdf/arcs3r21v2.xacro

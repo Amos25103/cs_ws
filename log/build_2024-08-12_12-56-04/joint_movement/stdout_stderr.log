@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/joint_movement/joint_movement.egg-info
+writing ../../build/joint_movement/joint_movement.egg-info/PKG-INFO
+writing dependency_links to ../../build/joint_movement/joint_movement.egg-info/dependency_links.txt
+writing entry points to ../../build/joint_movement/joint_movement.egg-info/entry_points.txt
+writing requirements to ../../build/joint_movement/joint_movement.egg-info/requires.txt
+writing top-level names to ../../build/joint_movement/joint_movement.egg-info/top_level.txt
+writing manifest file '../../build/joint_movement/joint_movement.egg-info/SOURCES.txt'
+reading manifest file '../../build/joint_movement/joint_movement.egg-info/SOURCES.txt'
+writing manifest file '../../build/joint_movement/joint_movement.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amos/cs_ws/build/joint_movement/build
+creating /home/amos/cs_ws/build/joint_movement/build/lib
+creating /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement
+copying joint_movement/movejoint.py -> /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement
+copying joint_movement/__init__.py -> /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement
+running install
+running install_lib
+creating /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement
+copying /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement/movejoint.py -> /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement
+copying /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement/__init__.py -> /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement
+byte-compiling /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement/movejoint.py to movejoint.cpython-310.pyc
+byte-compiling /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/amos/cs_ws/install/joint_movement/share/ament_index
+creating /home/amos/cs_ws/install/joint_movement/share/ament_index/resource_index
+creating /home/amos/cs_ws/install/joint_movement/share/ament_index/resource_index/packages
+copying resource/joint_movement -> /home/amos/cs_ws/install/joint_movement/share/ament_index/resource_index/packages
+copying package.xml -> /home/amos/cs_ws/install/joint_movement/share/joint_movement
+running install_egg_info
+Copying ../../build/joint_movement/joint_movement.egg-info to /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement-0.0.0-py3.10.egg-info
+running install_scripts
+Installing movejoint script to /home/amos/cs_ws/install/joint_movement/lib/joint_movement
+writing list of installed files to '/home/amos/cs_ws/build/joint_movement/install.log'

@@ -1,0 +1,24 @@
+[3.450s] Invoking command in '/home/amos/cs_ws/src/joint_movement': PYTHONPATH=/home/amos/cs_ws/build/joint_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_movement build --build-base /home/amos/cs_ws/build/joint_movement/build install --record /home/amos/cs_ws/build/joint_movement/install.log --single-version-externally-managed install_data
+[4.816s] running egg_info
+[4.819s] writing ../../build/joint_movement/joint_movement.egg-info/PKG-INFO
+[4.826s] writing dependency_links to ../../build/joint_movement/joint_movement.egg-info/dependency_links.txt
+[4.826s] writing entry points to ../../build/joint_movement/joint_movement.egg-info/entry_points.txt
+[4.827s] writing requirements to ../../build/joint_movement/joint_movement.egg-info/requires.txt
+[4.827s] writing top-level names to ../../build/joint_movement/joint_movement.egg-info/top_level.txt
+[4.855s] reading manifest file '../../build/joint_movement/joint_movement.egg-info/SOURCES.txt'
+[4.858s] writing manifest file '../../build/joint_movement/joint_movement.egg-info/SOURCES.txt'
+[4.869s] running build
+[4.870s] running build_py
+[4.870s] copying joint_movement/movejoint.py -> /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement
+[4.871s] running install
+[4.875s] running install_lib
+[4.881s] copying /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement/movejoint.py -> /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement
+[4.901s] byte-compiling /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement/movejoint.py to movejoint.cpython-310.pyc
+[4.908s] running install_data
+[4.912s] running install_egg_info
+[4.918s] removing '/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement-0.0.0-py3.10.egg-info' (and everything under it)
+[4.932s] Copying ../../build/joint_movement/joint_movement.egg-info to /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement-0.0.0-py3.10.egg-info
+[4.950s] running install_scripts
+[5.047s] Installing movejoint script to /home/amos/cs_ws/install/joint_movement/lib/joint_movement
+[5.050s] writing list of installed files to '/home/amos/cs_ws/build/joint_movement/install.log'
+[5.157s] Invoked command in '/home/amos/cs_ws/src/joint_movement' returned '0': PYTHONPATH=/home/amos/cs_ws/build/joint_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_movement build --build-base /home/amos/cs_ws/build/joint_movement/build install --record /home/amos/cs_ws/build/joint_movement/install.log --single-version-externally-managed install_data

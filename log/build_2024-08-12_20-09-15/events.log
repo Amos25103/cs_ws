@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.002472] (arcs3r21v2_description) JobQueued: {'identifier': 'arcs3r21v2_description', 'dependencies': OrderedDict()}
+[0.002545] (joint_movement) JobQueued: {'identifier': 'joint_movement', 'dependencies': OrderedDict()}
+[0.002585] (arcs3r21v2_description) JobStarted: {'identifier': 'arcs3r21v2_description'}
+[0.013787] (joint_movement) JobStarted: {'identifier': 'joint_movement'}
+[0.092102] (-) TimerEvent: {}
+[0.195172] (-) TimerEvent: {}
+[0.297726] (-) TimerEvent: {}
+[0.399126] (-) TimerEvent: {}
+[0.500757] (-) TimerEvent: {}
+[0.601517] (-) TimerEvent: {}
+[0.702479] (-) TimerEvent: {}
+[0.803287] (-) TimerEvent: {}
+[0.904414] (-) TimerEvent: {}
+[1.006411] (-) TimerEvent: {}
+[1.107168] (-) TimerEvent: {}
+[1.208091] (-) TimerEvent: {}
+[1.309296] (-) TimerEvent: {}
+[1.409867] (-) TimerEvent: {}
+[1.511227] (-) TimerEvent: {}
+[1.612377] (-) TimerEvent: {}
+[1.712914] (-) TimerEvent: {}
+[1.815176] (-) TimerEvent: {}
+[1.916744] (-) TimerEvent: {}
+[2.020784] (-) TimerEvent: {}
+[2.121832] (-) TimerEvent: {}
+[2.223869] (-) TimerEvent: {}
+[2.325004] (-) TimerEvent: {}
+[2.425859] (-) TimerEvent: {}
+[2.528456] (-) TimerEvent: {}
+[2.630830] (-) TimerEvent: {}
+[2.731880] (-) TimerEvent: {}
+[2.833709] (-) TimerEvent: {}
+[2.936777] (-) TimerEvent: {}
+[3.041006] (-) TimerEvent: {}
+[3.143448] (-) TimerEvent: {}
+[3.244238] (-) TimerEvent: {}
+[3.318270] (arcs3r21v2_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/amos/cs_ws/build/arcs3r21v2_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/amos/cs_ws/build/arcs3r21v2_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'amos', 'LC_TIME': 'en_GB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/amos', 'OLDPWD': '/home/amos/cs_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '981', 'SYSTEMD_EXEC_PID': '1561', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6064', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amos/cs_ws/install:/home/amos/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'amos', 'JOURNAL_STREAM': '8:36616', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'amos', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/amos-virtual-machine:@/tmp/.ICE-unix/1174,unix/amos-virtual-machine:/tmp/.ICE-unix/1174', 'INVOCATION_ID': 'e44dca5ea9514324b64b340b95b75ade', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZO75R2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/amos/cs_ws/install/joint_movement:/home/amos/cs_ws/install/arcs3r21v2_description:/home/amos/ros2_ws/install/my_robot_controller:/home/amos/ros2_ws/install/cpp_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:ee6a16d1-45b6-4be9-9059-8f70798c23e6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amos/cs_ws/build/arcs3r21v2_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:/home/amos/cs_ws/build/joint_movement:/home/amos/cs_ws/build/arcs3r21v2_description:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:/home/amos/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/amos/ros2_ws/install/cpp_package'}, 'shell': False}
+[3.344825] (-) TimerEvent: {}
+[3.445802] (-) TimerEvent: {}
+[3.552593] (-) TimerEvent: {}
+[3.656180] (-) TimerEvent: {}
+[3.758189] (-) TimerEvent: {}
+[3.832756] (joint_movement) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/amos/cs_ws/build/joint_movement/build', '--no-deps', 'symlink_data'], 'cwd': '/home/amos/cs_ws/build/joint_movement', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'amos', 'LC_TIME': 'en_GB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/amos', 'OLDPWD': '/home/amos/cs_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '981', 'SYSTEMD_EXEC_PID': '1561', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6064', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amos/cs_ws/install:/home/amos/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'amos', 'JOURNAL_STREAM': '8:36616', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'amos', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/amos-virtual-machine:@/tmp/.ICE-unix/1174,unix/amos-virtual-machine:/tmp/.ICE-unix/1174', 'INVOCATION_ID': 'e44dca5ea9514324b64b340b95b75ade', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZO75R2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/amos/cs_ws/install/joint_movement:/home/amos/cs_ws/install/arcs3r21v2_description:/home/amos/ros2_ws/install/my_robot_controller:/home/amos/ros2_ws/install/cpp_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:ee6a16d1-45b6-4be9-9059-8f70798c23e6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amos/cs_ws/build/joint_movement', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amos/cs_ws/build/joint_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:/home/amos/cs_ws/build/joint_movement:/home/amos/cs_ws/build/arcs3r21v2_description:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:/home/amos/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/amos/ros2_ws/install/cpp_package'}, 'shell': False}
+[3.859381] (-) TimerEvent: {}
+[3.966244] (-) TimerEvent: {}
+[4.072230] (-) TimerEvent: {}
+[4.181344] (-) TimerEvent: {}
+[4.293258] (-) TimerEvent: {}
+[4.395453] (-) TimerEvent: {}
+[4.500288] (-) TimerEvent: {}
+[4.602373] (-) TimerEvent: {}
+[4.703248] (-) TimerEvent: {}
+[4.804262] (-) TimerEvent: {}
+[4.906834] (-) TimerEvent: {}
+[4.949214] (arcs3r21v2_description) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[4.952352] (arcs3r21v2_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.007058] (-) TimerEvent: {}
+[5.068788] (arcs3r21v2_description) StdoutLine: {'line': b'running develop\n'}
+[5.071436] (arcs3r21v2_description) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.072453] (arcs3r21v2_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.107476] (-) TimerEvent: {}
+[5.208357] (-) TimerEvent: {}
+[5.309230] (-) TimerEvent: {}
+[5.413503] (-) TimerEvent: {}
+[5.436286] (joint_movement) StdoutLine: {'line': b'running develop\n'}
+[5.448816] (joint_movement) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.450019] (joint_movement) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.514219] (-) TimerEvent: {}
+[5.615097] (-) TimerEvent: {}
+[5.679089] (arcs3r21v2_description) StdoutLine: {'line': b'running egg_info\n'}
+[5.681042] (arcs3r21v2_description) StdoutLine: {'line': b'writing arcs3r21v2_description.egg-info/PKG-INFO\n'}
+[5.682694] (arcs3r21v2_description) StdoutLine: {'line': b'writing dependency_links to arcs3r21v2_description.egg-info/dependency_links.txt\n'}
+[5.683806] (arcs3r21v2_description) StdoutLine: {'line': b'writing entry points to arcs3r21v2_description.egg-info/entry_points.txt\n'}
+[5.684688] (arcs3r21v2_description) StdoutLine: {'line': b'writing requirements to arcs3r21v2_description.egg-info/requires.txt\n'}
+[5.685314] (arcs3r21v2_description) StdoutLine: {'line': b'writing top-level names to arcs3r21v2_description.egg-info/top_level.txt\n'}
+[5.688962] (arcs3r21v2_description) StdoutLine: {'line': b"reading manifest file 'arcs3r21v2_description.egg-info/SOURCES.txt'\n"}
+[5.689669] (arcs3r21v2_description) StdoutLine: {'line': b"writing manifest file 'arcs3r21v2_description.egg-info/SOURCES.txt'\n"}
+[5.700747] (arcs3r21v2_description) StdoutLine: {'line': b'running build_ext\n'}
+[5.702018] (arcs3r21v2_description) StdoutLine: {'line': b'Creating /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2-description.egg-link (link to .)\n'}
+[5.706449] (arcs3r21v2_description) StdoutLine: {'line': b'\n'}
+[5.709656] (arcs3r21v2_description) StdoutLine: {'line': b'Installed /home/amos/cs_ws/build/arcs3r21v2_description\n'}
+[5.711242] (arcs3r21v2_description) StdoutLine: {'line': b'running symlink_data\n'}
+[5.715858] (-) TimerEvent: {}
+[5.817480] (-) TimerEvent: {}
+[5.867209] (arcs3r21v2_description) CommandEnded: {'returncode': 0}
+[5.941273] (-) TimerEvent: {}
+[5.986526] (arcs3r21v2_description) JobEnded: {'identifier': 'arcs3r21v2_description', 'rc': 0}
+[6.042320] (-) TimerEvent: {}
+[6.143129] (-) TimerEvent: {}
+[6.199030] (joint_movement) StdoutLine: {'line': b'running egg_info\n'}
+[6.199333] (joint_movement) StdoutLine: {'line': b'writing joint_movement.egg-info/PKG-INFO\n'}
+[6.199712] (joint_movement) StdoutLine: {'line': b'writing dependency_links to joint_movement.egg-info/dependency_links.txt\n'}
+[6.201583] (joint_movement) StdoutLine: {'line': b'writing entry points to joint_movement.egg-info/entry_points.txt\n'}
+[6.201757] (joint_movement) StdoutLine: {'line': b'writing requirements to joint_movement.egg-info/requires.txt\n'}
+[6.202564] (joint_movement) StdoutLine: {'line': b'writing top-level names to joint_movement.egg-info/top_level.txt\n'}
+[6.208028] (joint_movement) StdoutLine: {'line': b"reading manifest file 'joint_movement.egg-info/SOURCES.txt'\n"}
+[6.215084] (joint_movement) StdoutLine: {'line': b"writing manifest file 'joint_movement.egg-info/SOURCES.txt'\n"}
+[6.221015] (joint_movement) StdoutLine: {'line': b'running build_ext\n'}
+[6.221739] (joint_movement) StdoutLine: {'line': b'Creating /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint-movement.egg-link (link to .)\n'}
+[6.231247] (joint_movement) StdoutLine: {'line': b'Installing movejoint script to /home/amos/cs_ws/install/joint_movement/lib/joint_movement\n'}
+[6.232216] (joint_movement) StdoutLine: {'line': b'\n'}
+[6.232547] (joint_movement) StdoutLine: {'line': b'Installed /home/amos/cs_ws/build/joint_movement\n'}
+[6.232678] (joint_movement) StdoutLine: {'line': b'running symlink_data\n'}
+[6.243628] (-) TimerEvent: {}
+[6.340839] (joint_movement) CommandEnded: {'returncode': 0}
+[6.344525] (-) TimerEvent: {}
+[6.351424] (joint_movement) JobEnded: {'identifier': 'joint_movement', 'rc': 0}
+[6.354528] (-) EventReactorShutdown: {}

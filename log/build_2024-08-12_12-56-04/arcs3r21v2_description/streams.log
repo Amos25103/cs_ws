@@ -1,0 +1,23 @@
+[4.471s] Invoking command in '/home/amos/cs_ws/src/arcs3r21v2_description': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arcs3r21v2_description build --build-base /home/amos/cs_ws/build/arcs3r21v2_description/build install --record /home/amos/cs_ws/build/arcs3r21v2_description/install.log --install-scripts $base/lib/arcs3r21v2_description --single-version-externally-managed install_data
+[6.169s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.169s]   warnings.warn(
+[6.199s] running egg_info
+[6.205s] writing ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/PKG-INFO
+[6.208s] writing dependency_links to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/dependency_links.txt
+[6.209s] writing entry points to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/entry_points.txt
+[6.210s] writing requirements to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/requires.txt
+[6.211s] writing top-level names to ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/top_level.txt
+[6.221s] reading manifest file '../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/SOURCES.txt'
+[6.230s] writing manifest file '../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info/SOURCES.txt'
+[6.230s] running build
+[6.230s] running build_py
+[6.231s] running install
+[6.232s] running install_lib
+[6.235s] running install_data
+[6.236s] copying urdf/arcs3r21v2.xacro -> /home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/urdf
+[6.237s] running install_egg_info
+[6.241s] removing '/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description-0.0.0-py3.10.egg-info' (and everything under it)
+[6.244s] Copying ../../build/arcs3r21v2_description/arcs3r21v2_description.egg-info to /home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages/arcs3r21v2_description-0.0.0-py3.10.egg-info
+[6.250s] running install_scripts
+[6.417s] writing list of installed files to '/home/amos/cs_ws/build/arcs3r21v2_description/install.log'
+[6.549s] Invoked command in '/home/amos/cs_ws/src/arcs3r21v2_description' returned '0': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arcs3r21v2_description build --build-base /home/amos/cs_ws/build/arcs3r21v2_description/build install --record /home/amos/cs_ws/build/arcs3r21v2_description/install.log --install-scripts $base/lib/arcs3r21v2_description --single-version-externally-managed install_data

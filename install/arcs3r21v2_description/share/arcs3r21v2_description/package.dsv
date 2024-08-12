@@ -4,3 +4,6 @@ source;share/arcs3r21v2_description/hook/pythonpath.sh
 source;share/arcs3r21v2_description/hook/ament_prefix_path.ps1
 source;share/arcs3r21v2_description/hook/ament_prefix_path.dsv
 source;share/arcs3r21v2_description/hook/ament_prefix_path.sh
+source;../../build/arcs3r21v2_description/share/arcs3r21v2_description/hook/pythonpath_develop.ps1
+source;../../build/arcs3r21v2_description/share/arcs3r21v2_description/hook/pythonpath_develop.dsv
+source;../../build/arcs3r21v2_description/share/arcs3r21v2_description/hook/pythonpath_develop.sh

@@ -1,0 +1,3 @@
+[console_scripts]
+movejoint = joint_movement.movejoint:main
+

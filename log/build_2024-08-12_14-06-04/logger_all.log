@@ -1,0 +1,186 @@
+[0.133s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.133s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ba998a341c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ba998bffc40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ba998bffc40>>)
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.370s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amos/cs_ws'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/arcs3r21v2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/arcs3r21v2_description) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/arcs3r21v2_description) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/arcs3r21v2_description) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/arcs3r21v2_description) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/arcs3r21v2_description) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/arcs3r21v2_description) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/arcs3r21v2_description) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/arcs3r21v2_description) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arcs3r21v2_description' with type 'ros.ament_python' and name 'arcs3r21v2_description'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_movement) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_movement) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_movement) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_movement) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_movement) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_movement) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_movement) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_movement) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_movement) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joint_movement' with type 'ros.ament_python' and name 'joint_movement'
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.435s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/amos/cs_ws/install
+[0.435s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/amos/ros2_ws/install
+[0.436s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/humble
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'arcs3r21v2_description' build argument 'cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'arcs3r21v2_description' build argument 'cmake_target' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'arcs3r21v2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'arcs3r21v2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'arcs3r21v2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'arcs3r21v2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'arcs3r21v2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'arcs3r21v2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'arcs3r21v2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'arcs3r21v2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amos/cs_ws/build/arcs3r21v2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amos/cs_ws/install/arcs3r21v2_description', 'merge_install': False, 'path': '/home/amos/cs_ws/src/arcs3r21v2_description', 'symlink_install': True, 'test_result_base': None}
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'joint_movement' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'joint_movement' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'joint_movement' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'joint_movement' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'joint_movement' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'joint_movement' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'joint_movement' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'joint_movement' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'joint_movement' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'joint_movement' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amos/cs_ws/build/joint_movement', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amos/cs_ws/install/joint_movement', 'merge_install': False, 'path': '/home/amos/cs_ws/src/joint_movement', 'symlink_install': True, 'test_result_base': None}
+[0.518s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.521s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.521s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amos/cs_ws/src/arcs3r21v2_description' with build type 'ament_python'
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('arcs3r21v2_description', 'ament_prefix_path')
+[0.525s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/hook/ament_prefix_path.ps1'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/hook/ament_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/hook/ament_prefix_path.sh'
+[0.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amos/cs_ws/src/joint_movement' with build type 'ament_python'
+[0.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_movement', 'ament_prefix_path')
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/install/joint_movement/share/joint_movement/hook/ament_prefix_path.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amos/cs_ws/install/joint_movement/share/joint_movement/hook/ament_prefix_path.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/install/joint_movement/share/joint_movement/hook/ament_prefix_path.sh'
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.900s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amos/cs_ws/src/arcs3r21v2_description'
+[0.901s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.340s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amos/cs_ws/src/joint_movement'
+[1.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amos/cs_ws/build/joint_movement': PYTHONPATH=/home/amos/cs_ws/build/joint_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/joint_movement/build --no-deps symlink_data
+[2.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amos/cs_ws/build/arcs3r21v2_description': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/arcs3r21v2_description/build --no-deps symlink_data
+[2.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_movement', 'pythonpath_develop')
+[2.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/build/joint_movement/share/joint_movement/hook/pythonpath_develop.ps1'
+[2.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amos/cs_ws/build/joint_movement' returned '0': PYTHONPATH=/home/amos/cs_ws/build/joint_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/joint_movement/build --no-deps symlink_data
+[2.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amos/cs_ws/build/joint_movement/share/joint_movement/hook/pythonpath_develop.dsv'
+[2.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/build/joint_movement/share/joint_movement/hook/pythonpath_develop.sh'
+[2.967s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/joint_movement' for CMake module files
+[2.970s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/joint_movement' for CMake config files
+[2.972s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/joint_movement/lib'
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/joint_movement/bin'
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/joint_movement/lib/pkgconfig/joint_movement.pc'
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages'
+[2.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_movement', 'pythonpath')
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/install/joint_movement/share/joint_movement/hook/pythonpath.ps1'
+[2.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amos/cs_ws/install/joint_movement/share/joint_movement/hook/pythonpath.dsv'
+[2.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/install/joint_movement/share/joint_movement/hook/pythonpath.sh'
+[2.981s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/joint_movement/bin'
+[2.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_movement)
+[2.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/amos/cs_ws/install/joint_movement/share/joint_movement/package.ps1'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amos/cs_ws/install/joint_movement/share/joint_movement/package.dsv'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/amos/cs_ws/install/joint_movement/share/joint_movement/package.sh'
+[2.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/amos/cs_ws/install/joint_movement/share/joint_movement/package.bash'
+[2.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/amos/cs_ws/install/joint_movement/share/joint_movement/package.zsh'
+[2.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amos/cs_ws/install/joint_movement/share/colcon-core/packages/joint_movement)
+[2.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('arcs3r21v2_description', 'pythonpath_develop')
+[2.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/build/arcs3r21v2_description/share/arcs3r21v2_description/hook/pythonpath_develop.ps1'
+[2.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amos/cs_ws/build/arcs3r21v2_description' returned '0': PYTHONPATH=/home/amos/cs_ws/build/arcs3r21v2_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amos/cs_ws/build/arcs3r21v2_description/build --no-deps symlink_data
+[2.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amos/cs_ws/build/arcs3r21v2_description/share/arcs3r21v2_description/hook/pythonpath_develop.dsv'
+[3.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/build/arcs3r21v2_description/share/arcs3r21v2_description/hook/pythonpath_develop.sh'
+[3.003s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/arcs3r21v2_description' for CMake module files
+[3.003s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/arcs3r21v2_description' for CMake config files
+[3.004s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/arcs3r21v2_description/lib'
+[3.004s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/arcs3r21v2_description/bin'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/arcs3r21v2_description/lib/pkgconfig/arcs3r21v2_description.pc'
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/arcs3r21v2_description/lib/python3.10/site-packages'
+[3.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('arcs3r21v2_description', 'pythonpath')
+[3.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/hook/pythonpath.ps1'
+[3.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/hook/pythonpath.dsv'
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/hook/pythonpath.sh'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/amos/cs_ws/install/arcs3r21v2_description/bin'
+[3.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arcs3r21v2_description)
+[3.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/package.ps1'
+[3.019s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/package.dsv'
+[3.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/package.sh'
+[3.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/package.bash'
+[3.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/amos/cs_ws/install/arcs3r21v2_description/share/arcs3r21v2_description/package.zsh'
+[3.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amos/cs_ws/install/arcs3r21v2_description/share/colcon-core/packages/arcs3r21v2_description)
+[3.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.029s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.029s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.042s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.042s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.042s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.078s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amos/cs_ws/install/local_setup.ps1'
+[3.083s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amos/cs_ws/install/_local_setup_util_ps1.py'
+[3.088s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amos/cs_ws/install/setup.ps1'
+[3.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amos/cs_ws/install/local_setup.sh'
+[3.097s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amos/cs_ws/install/_local_setup_util_sh.py'
+[3.098s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amos/cs_ws/install/setup.sh'
+[3.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amos/cs_ws/install/local_setup.bash'
+[3.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amos/cs_ws/install/setup.bash'
+[3.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amos/cs_ws/install/local_setup.zsh'
+[3.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amos/cs_ws/install/setup.zsh'

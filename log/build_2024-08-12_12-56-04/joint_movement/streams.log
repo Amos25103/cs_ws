@@ -1,0 +1,37 @@
+[3.779s] Invoking command in '/home/amos/cs_ws/src/joint_movement': PYTHONPATH=/home/amos/cs_ws/build/joint_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_movement build --build-base /home/amos/cs_ws/build/joint_movement/build install --record /home/amos/cs_ws/build/joint_movement/install.log --single-version-externally-managed install_data
+[5.179s] running egg_info
+[5.203s] creating ../../build/joint_movement/joint_movement.egg-info
+[5.216s] writing ../../build/joint_movement/joint_movement.egg-info/PKG-INFO
+[5.224s] writing dependency_links to ../../build/joint_movement/joint_movement.egg-info/dependency_links.txt
+[5.225s] writing entry points to ../../build/joint_movement/joint_movement.egg-info/entry_points.txt
+[5.225s] writing requirements to ../../build/joint_movement/joint_movement.egg-info/requires.txt
+[5.225s] writing top-level names to ../../build/joint_movement/joint_movement.egg-info/top_level.txt
+[5.226s] writing manifest file '../../build/joint_movement/joint_movement.egg-info/SOURCES.txt'
+[5.298s] reading manifest file '../../build/joint_movement/joint_movement.egg-info/SOURCES.txt'
+[5.301s] writing manifest file '../../build/joint_movement/joint_movement.egg-info/SOURCES.txt'
+[5.304s] running build
+[5.307s] running build_py
+[5.308s] creating /home/amos/cs_ws/build/joint_movement/build
+[5.310s] creating /home/amos/cs_ws/build/joint_movement/build/lib
+[5.310s] creating /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement
+[5.315s] copying joint_movement/movejoint.py -> /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement
+[5.316s] copying joint_movement/__init__.py -> /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement
+[5.316s] running install
+[5.316s] running install_lib
+[5.320s] creating /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement
+[5.321s] copying /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement/movejoint.py -> /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement
+[5.321s] copying /home/amos/cs_ws/build/joint_movement/build/lib/joint_movement/__init__.py -> /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement
+[5.321s] byte-compiling /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement/movejoint.py to movejoint.cpython-310.pyc
+[5.321s] byte-compiling /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement/__init__.py to __init__.cpython-310.pyc
+[5.321s] running install_data
+[5.321s] creating /home/amos/cs_ws/install/joint_movement/share/ament_index
+[5.321s] creating /home/amos/cs_ws/install/joint_movement/share/ament_index/resource_index
+[5.321s] creating /home/amos/cs_ws/install/joint_movement/share/ament_index/resource_index/packages
+[5.321s] copying resource/joint_movement -> /home/amos/cs_ws/install/joint_movement/share/ament_index/resource_index/packages
+[5.321s] copying package.xml -> /home/amos/cs_ws/install/joint_movement/share/joint_movement
+[5.321s] running install_egg_info
+[5.321s] Copying ../../build/joint_movement/joint_movement.egg-info to /home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages/joint_movement-0.0.0-py3.10.egg-info
+[5.324s] running install_scripts
+[5.448s] Installing movejoint script to /home/amos/cs_ws/install/joint_movement/lib/joint_movement
+[5.454s] writing list of installed files to '/home/amos/cs_ws/build/joint_movement/install.log'
+[5.711s] Invoked command in '/home/amos/cs_ws/src/joint_movement' returned '0': PYTHONPATH=/home/amos/cs_ws/build/joint_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amos/cs_ws/install/joint_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joint_movement build --build-base /home/amos/cs_ws/build/joint_movement/build install --record /home/amos/cs_ws/build/joint_movement/install.log --single-version-externally-managed install_data
